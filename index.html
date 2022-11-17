@@ -7,13 +7,92 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <title>Lancy Tan</title>
-    <meta name="description" content="Lancy Tan's portfolio"> 
-    
+    <meta name="description" content="Lancy Tan's portfolio">
+    <link rel="icon" href="assets/plant-favicon.gif" type="image/gif" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    
   </head>
   
   <body>
+    <div class="container">
+      <nav class="navbar navbar-expand ">
+        <a class="navbar-brand" href="index.html">Lancy Tan</a>
+
+        <div class="w-100">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" id="active" >Work<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" id="inactive">About</a>
+            </li>
+            <li class="nav-item" id="resume-link">
+              <a class="nav-link" href="LancyTanResume.pdf" id="inactive" target="_blank">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="header fade-in-bottom">
+          <h1 class="header-intro "> <span style="color: var(--accent);">&mdash;</span> Hi there! I'm <span style="color: var(--accent);"> Lancy</span>.</h1>
+          <p class="header-desc "> UX designer and developer based in San Francisco. &#129716;</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container fade-in-bottom">
+    <h2> Featured Works</h2>
+      <a href="oc-habitats.html">
+        <div class="project">
+          <div class="project-img">
+            <img class="project-thumbnail" src="assets/OCH Thumbnail.png">
+          </div>
+
+          <div class="project-desc">
+            <h3> <span style="color: var(--accent);">&mdash;</span> OC Habitats</h3>
+            <p class="project-pill">mobile</p> <p class="project-pill">desktop</p>
+            <p> Digitizing the form management experience, providing better data for habitat preservation. Project in collaboration with OC Habitats.</p>
+            <br>
+            <p> read more &rarr;</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="dreams-for-schools.html">
+        <div class="project">
+          <div class="project-img">
+            <img class="project-thumbnail" src="assets/DFS Thumbnail.png">
+          </div>
+
+          <div class="project-desc">
+            <h3> <span style="color: var(--accent);">&mdash;</span> Dreams For Schools</h3>
+            <p class="project-pill">desktop</p>
+            <p> A web based course manager to streamline the process of instructor scheduling. Project in partnership with Dreams For Schools.</p>
+            <br>
+            <p> read more &rarr;</p>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+
+    <div class="container">
+      <footer>
+        <h4 class="social-header">reach me!</h4>
+        <span class="socials"> <a href="https://www.linkedin.com/in/lancy-tan/" target="_blank">linkedin</a> <span style="color: var(--accent);">&mdash;</span>
+                <a href="https://github.com/LancyTan" target="_blank"> github </a> <span style="color: var(--accent);">&mdash;</span>
+                <a href="mailto:lancy.tan97@gmail.com"> email </a> </span>
+        <div class="copyright" style="padding-top:1rem;">
+          <p> &copy; Lancy Tan 2022</p>
+        </div>
+      </footer>
+    </div>
+
 	<script src="index.js"></script>
   </body>
   
