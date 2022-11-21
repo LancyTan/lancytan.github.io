@@ -142,16 +142,18 @@ a:hover {
 
 .header-intro {
     font-weight: 600;
-    font-size: 60px;
+    font-size: 58px;
 }
 
 .header-desc {
     font-weight: 300;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1.75;
 }
 
 /* text styling */
+
+
 p {
     font-family: 'Poppins', sans-serif;
 }
@@ -321,7 +323,7 @@ blockquote {
 }
 
 .about-text {
-    padding: 0 0rem 0 7rem;
+    padding: 0 0rem 0 4rem;
     vertical-align: center;
     font-size: 16px;
 }
@@ -362,6 +364,10 @@ footer {
     padding-top: 3rem;
 }
 
+#social-link:hover
+{
+    color: var(--accent);
+}
 /**
  * ----------------------------------------
  * responsive media queries
@@ -371,11 +377,11 @@ footer {
 /* tablets */
 @media screen and (max-width: 1023px) {
     .header-intro {
-        font-size: 52px;
+        font-size: 48px;
     }
 
     .header-desc {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     h2 {
@@ -429,7 +435,7 @@ footer {
     }
 
     .header-desc {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     h2 {
