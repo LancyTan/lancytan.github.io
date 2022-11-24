@@ -9,6 +9,7 @@
     --default-color: #363636;
     --hover-accent: var(--default-color);
     --project-bg: #fdfdfd;
+    --project-bg-mobile: #fafafa;
 
 }
 
@@ -448,8 +449,7 @@ footer {
     .about-text {
         padding-top: 3rem;
         padding-left: 0;
-        margin-left: 10%;
-        margin-right: 10%;
+        max-width: 80%;
     }
 
 
@@ -457,6 +457,13 @@ footer {
 
 /* phones */
 @media screen and (max-width: 767px) {
+
+    .navbar li {
+        list-style: none;
+        padding-left: 0rem;
+    }
+
+
     #resume-link {
         display: none;
     }
@@ -475,6 +482,10 @@ footer {
 
     .container{
         max-width: 100%;
+    }
+
+    .project {
+        background-color: var(--project-bg-mobile);
     }
     .project-img {
         padding-bottom: 1.5rem;
@@ -509,6 +520,16 @@ footer {
 
     .proj-content {
         width: 100%;
+    }
+
+    .about-img {
+        max-width: 90%;
+    }
+
+    .about-text {
+        padding-top: 3rem;
+        padding-left: 0;
+        max-width: 90%;
     }
 
 }
