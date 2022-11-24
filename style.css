@@ -458,11 +458,10 @@ footer {
 /* phones */
 @media screen and (max-width: 767px) {
 
-    .navbar li {
-        list-style: none;
-        padding-left: 0rem;
-    }
 
+    .navbar li {
+        padding-left: 0.75rem;
+    }
 
     #resume-link {
         display: none;
