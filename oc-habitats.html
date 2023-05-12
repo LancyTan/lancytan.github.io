@@ -76,10 +76,9 @@
             </div>
             <div class="proj-subsection">
                 <h5 class="proj-subheader">About My Role</h5>
-                <p class="proj-text"> As a UX/UI designer, I worked alongside 6 other designers and 18 developers.
-                     As a part of the OCH team, I executed end-to-end design solutions,
-                    including user research, wireframing, user testing and client communication.
-                    This project was done as a part of Commit The Change at UCI, a student organization that partners with nonprofits
+                <p class="proj-text"> As a part of the OCH team, I executed end-to-end design solutions,
+                    including user research, wireframing, design system maintenance, user testing and client communication.
+                    This project was done as a part of Commit The Change, a UCI organization that partners with nonprofits
                     to create high quality software.</p>
                 </div>
             </div>
@@ -110,20 +109,19 @@
         <div class="proj-content">
             <div class="proj-subsection">
                 <h5 class="proj-subheader">Users: Admins and Volunteers</h5>
-                <p class="proj-text"> The users of this system includes the OCH <strong> admins</strong>, who manage volunteers and the
-                    monitor log data, and <strong> volunteers</strong>, who fill in the logs for the habitats they monitor.
-                    We interviewed the admins to learn
-                    more about their current workflow when it came to assigning, editing, reviewing monitor logs,
-                    as well as their expectations of volunteers.</p>
+                <p class="proj-text"> The users of this platform include the OCH <strong> admins</strong>, who manage volunteers and the
+                    data they log, and <strong> volunteers</strong>, who input the data. However, the form 
+                    manager feature would be utilized by admins only. We interviewed them to learn
+                    more about their current workflow for better system design.</p>
             </div>
             <div class="proj-subsection">
                 <h5 class="proj-subheader">Key Findings</h5>
                 <ul class="proj-ul">
-                    <li>All volunteers use the same monitor log template, no matter the survey location</li>
-                    <li>The questions on the template are updated on a need-basis by admins</li>
-                    <li>OCH volunteers range in age from 30-65+</li>
-                    <li>Users will access forms on both desktop and mobile devices</li>
-                    <li>Some will use the paper form at the site, and transfer it to the platform later </li>
+                    <li>All survey locations utilized the same monitor log template</li>
+                    <li>The questions on the template are updated on a need-basis</li>
+                    <li>OCH admins described themselves to have medium tech literacy</li>
+                    <li>Users will access the platform on both desktop and (occasionally) mobile devices</li>
+                    <li>Monitor log questions ask for a variety of data types</li>
                 </ul>
 
             </div>
@@ -133,14 +131,33 @@
 
     <div class="proj-section">
         <div class="proj-header">
+            <h4>Information Architecture</h4>
+        </div>
+        <div class="proj-content">
+            <div class="proj-subsection">
+                <h5 class="proj-subheader">Creating A Site Map</h5>
+                <p class="proj-text"> 
+                    We started the ideation process with a site map to visualize the layout
+                    of the entire system. It was important to us to define its structure, understand the role of each
+                    page and how the features should be organized. As a designer on this team, I oversaw the "Edit Monitor Log" 
+                    and the "Species Catalog" feature sets. 
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <img class="proj-img" src="assets/OCH/OCH Site Map.png" alt="Site map of OC Habitats application">
+
+    <div class="proj-section">
+        <div class="proj-header">
             <h4>Competitive Analysis</h4>
         </div>
         <div class="proj-content">
             <div class="proj-subsection">
-                <p class="proj-text"> With one of the functions of this system being a form manager,
-                    my team and I conducted a competitive analysis of other similar products on the market.
-                    We tested each product's form building process and researched their value propositions.
-                     </p>
+                <p class="proj-text"> With focus on the form editing feature, my team and I conducted a competitive analysis off
+                    other similar products on the market. We tested each product's form building process, allowing us to better understand 
+                    how we can tailor this experience for OC Habitats. 
+                    </p>
 
             </div>
 
@@ -151,24 +168,6 @@
     <img class="proj-img" src="assets/OCH/OCH Competitive Analysis.png" alt="Competitive analysis chart of form builders
     on the market, including SurveyMonkey, Qualtrics, WuFoo, and HubSpot Form Builder">
 
-
-    <div class="proj-section">
-        <div class="proj-header">
-            <h4>Information Architecture</h4>
-        </div>
-        <div class="proj-content">
-            <div class="proj-subsection">
-                <h5 class="proj-subheader">Creating A Site Map</h5>
-                <p class="proj-text"> We started the ideation process with a site map to visualize the layout
-                    of the entire system. It was important to us to define its structure, understand the role of each
-                    page and how the features should be organized.
-                    </p>
-            </div>
-        </div>
-    </div>
-
-    <img class="proj-img" src="assets/OCH/OCH Site Map.png" alt="Site map of OC Habitats application">
-
     <div class="proj-section">
         <div class="proj-header">
             <h4>Initial Ideation</h4>
@@ -176,7 +175,7 @@
         <div class="proj-content">
             <div class="proj-subsection">
                 <h5 class="proj-subheader">"Edit Monitor Log Template" Features</h5>
-                <p class="proj-text"> Using the site map as a blueprint, we created various sketches of the pages on
+                <p class="proj-text"> We created various sketches of the pages on
                     both desktop and mobile. Below are the sketches we created for the "Edit Monitor Log" page.
                     Even though this particular feature will primarily be used on desktop,
                     it was important for us to consider both formats early in the design process.
@@ -195,8 +194,8 @@
             <div class="proj-subsection">
                 <p class="proj-text"> We created a style guide to make sure that there
                 was consistency across designs, and that the organization's branding was accurately reflected within the
-                internal system. After many iterations, the off-white color I chose as the background ended up being selected
-                for the guide!</p>
+                internal system. To improve design workflow, we also used Chakra UI and Feather icons. These translated into 
+                a design system, which we maintained for our Figma project.</p>
             </div>
 
         </div>
@@ -210,9 +209,9 @@
         </div>
         <div class="proj-content">
             <div class="proj-subsection">
-                <p class="proj-text"> To focus on the necessary features highlighted in the site map, my team decided
-                    on the fixed sidebar design so that each question could be selected and viewed with ease.
-                    In mobile, this translated into a pop-up design. Drag and drop was utilized in both views to reorder
+                <p class="proj-text"> My team decided on the fixed sidebar design during early ideation so that each question 
+                    could be selected and viewed with ease. In mobile, this translated into a pop-up design. 
+                    Drag and drop was utilized in both views to reorder
                     questions and drag newly created questions into the desired position.  </p>
             </div>
         </div>
@@ -233,7 +232,7 @@
                 <h5>Remote Usability Testing</h5>
                 <p class="proj-text"> After the first iteration of hi-fi was completed, we put our designs to the test.
                     My team recruited OCH admins and volunteers to observe how successfully users performed tasks, such as
-                    assigning volunteers, filling out the log, etc. <br> <br>
+                    assigning volunteers, filling out the log, editing the template, etc. <br> <br>
                     The remote user tests were conducted via Zoom, using either desktop or mobile iterations
                     of the prototypes. We conducted 20 usability sessions in total.
                     </p>
@@ -243,7 +242,7 @@
                 <p class="proj-text"> Feedback from usability testing gave us great insight into our designs. The
                     admins noted that
                     drag and drop felt unintuitive, and that previewing the question in the
-                    sidebar felt unnecessary. We also learned more about the scope of the feature:
+                    sidebar felt unnecessary. At this point, the scope of the feature was also updated:
                     not all questions need a delete option,
                     and only 2 question types would ever be added: text or number input. </p>
             </div>
@@ -258,11 +257,12 @@
             <div class="proj-subsection">
                 <p class="proj-text">We tweaked the design to incorporate the user feedback. Users could click "+ Add Question"
                     to add a new one, click on existing questions to edit/delete
-                    it, and drag questions around to re-order them. <br> <br>
+                    it, and drag questions around to re-order them. Questions that could not be modified were also labeled as 
+                    "static" question types for clarity. <br> <br>
 
                     We utilized a popup design to
                     make the design more consistent with mobile view. It would also allow for the developers to reuse components, thus
-                    saving time.
+                    saving development time.
 
                 </p>
             </div>
