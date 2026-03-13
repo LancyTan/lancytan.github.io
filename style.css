@@ -8,8 +8,8 @@
     --accent-lighter: rgba(186, 229, 173, 0.38);
     --default-color: #363636;
     --hover-accent: var(--default-color);
-    --project-bg: #fdfdfd;
-    --project-bg-mobile: #fafafa;
+    --project-bg: #f8f8f8;
+    --project-bg-mobile: #f8f8f8;
 
 }
 
@@ -271,11 +271,11 @@ h5 {
 }
 
 .locked-pill {
-    background-color: #e9e9e9;
+    background-color: #e1e1e1;
 }
 
 .project-locked:hover .locked-pill{
-    background-color: #dfdfdf;
+    background-color: #d6d6d6;
 }
 
 .project-img {
