@@ -10,8 +10,10 @@
     <meta name="description" content="Lancy Tan's portfolio">
     <link rel="icon" href="assets/plant-favicon.gif" type="image/gif" >
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -43,7 +45,7 @@
         <img class="proj-cover " src="assets/OCH/OCH Cover.png" alt="OC Habitats cover image">
 
         <h2 class="proj-title ">OC Habitats</h2>
-        <p class="proj-opener proj-text"> We designed a form manager for  OC Habitats to <span style="background-color: var(--accent-lighter);"> effectively capture habitat preservation data </span>, so they can easily spot patterns and make informed decisions. </p>
+        <p class="proj-opener proj-text"> We designed a form manager for OC Habitats to <span style="background-color: var(--accent-lighter);"> effectively capture habitat preservation data</span>, so they can easily spot patterns and make informed decisions. </p>
 
         <div class="proj-details ">
             <div class="proj-tri-column">
@@ -194,7 +196,7 @@
             <div class="proj-subsection">
                 <p class="proj-text"> We created a style guide to make sure that there
                 was consistency across designs, and that the organization's branding was accurately reflected within the
-                internal system. To improve design workflow, we also used Chakra UI and Feather icons. These translated into 
+                internal system. We also utilized Chakra UI and Feather icons. These translated into 
                 a design system, which we maintained for our Figma project.</p>
             </div>
 
@@ -276,16 +278,28 @@
 
     <div class="proj-section">
         <div class="proj-header">
-            <h4>Next Steps</h4>
+            <h4>What I Learned...</h4>
         </div>
         <div class="proj-content">
             <div class="proj-subsection">
-                <h5>The form manager is launched!</h5>
-                <p class="proj-text"> We're so happy to say that we have successfully handed off the system to
-                OC Habitats for internal use! It's been so rewarding for me to work closely with the clients and end
-                users, and I'm very excited for the possibilities that this will bring to their organization.
-                I'm very grateful to have the experience of working on a project of this size alongside so many
-                amazing team members!
+                <h5>Adapt and iterate</h5>
+                <p class="proj-text"> Our team ended up with less time than planned to implement 
+                    this feature (because when doesn’t that happen, right? <iconify-icon icon="fluent-emoji-flat:grinning-face-with-sweat"></iconify-icon>) 
+                    I had designed something intuitive and user-friendly, but we needed a simpler solution 
+                    that could work across both desktop and mobile. I had to let go of my attachment to the 
+                    first idea and focus on what could realistically be delivered. The process taught me how 
+                    to make thoughtful trade-offs, stay flexible, and iterate while keeping the user experience central.
+                </p>
+            </div>
+
+            <div class="proj-subsection">
+                <h5>Inclusive design in context</h5>
+                <p class="proj-text"> Designing this product meant thinking about more than just screens. 
+                    Our users will be outdoors or sitting in cars, entering data they might have first logged on paper. 
+                    We considered legible typography in bright sunlight, clear touch targets for users interacting with gloves, 
+                    and logical flows that made the interface easy to follow. I also focused on consistent feedback and error prevention (because 
+                    having to correct data you already inputted is frustrating!). Through this project, I learned how to apply 
+                    WCAG principles in practice while also thinking about real users in the actual contexts.
                 </p>
             </div>
         </div>
@@ -295,17 +309,16 @@
 </div>
 
 
-<div class="container">
+  <div class="container">
     <footer>
-        <h4 class="social-header">reach me!</h4>
-        <span class="socials"> <a href="https://www.linkedin.com/in/lancy-tan/" target="_blank" id="accent-link">linkedin</a> <span style="color: var(--accent);">&mdash;</span>
-                <a href="https://github.com/LancyTan" target="_blank" id="accent-link"> github </a> <span style="color: var(--accent);">&mdash;</span>
-                <a href="mailto:lancy.tan97@gmail.com" id="accent-link"> email </a> </span>
-        <div class="copyright" style="padding-top:1rem;">
-            <p> &copy; Lancy Tan 2022</p>
-        </div>
-    </footer>
-</div>
+        <p>&copy; Lancy Tan</p>
+
+        <span class="socials"> <a href="https://www.linkedin.com/in/lancy-tan/" target="_blank" aria-label="LinkedIn"> <i class="fa-brands fa-linkedin-in"></i> </a> 
+          <span style="color: var(--accent);">/</span>
+                
+                <a href="mailto:lancy.tan97@gmail.com" id="accent-link" aria-label="Email"> <i class="fa-regular fa-envelope"></i></a> </span>
+      </footer>
+  </div>
 
 </body>
 
