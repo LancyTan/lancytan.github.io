@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Lancy Tan</title>
+    <meta name="description" content="Lancy Tan's portfolio">
+    <link rel="icon" href="assets/plant-favicon.gif" type="image/gif" >
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand">
+        <a class="navbar-brand" href="index.html">Lancy Tan</a>
+
+        <div class="w-100">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" id="accent-link" >Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" id="accent-link">About</a>
+                </li>
+                <li class="nav-item" id="resume-link">
+                    <a class="nav-link" href="LancyTanResume.pdf" id="accent-link" target="_blank">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</div>
+
+<div class="container">
+
+    <div class="fade-in-bottom">
+        <img class="proj-cover " src="assets/game/game Cover.png" alt="game cover image">
+
+        <h2 class="proj-title ">Project Analyst</h2>
+        <p class="proj-opener proj-text"> We <span style="background-color: var(--accent-lighter);">designed a game structure builder</span> to help defense researchers build, communicate, and replicate wargame designs with clarity. </p>
+
+        <div class="proj-details ">
+            <div class="proj-tri-column">
+                <h4 class="project-specs">Role</h4>
+                <p class="proj-text">Sole UX/UI Designer </p>
+            </div>
+            <div class="proj-tri-column">
+                <h4 class="project-specs">Tools Used</h4>
+                <p class="proj-text">Figma, Zeplin, Claude, Gemini Canvas</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="proj-section">
+        <div class="proj-header">
+            <h4> Project Context </h4>
+        </div>
+
+        <div class="proj-content">
+            <div class="proj-subsection">
+                <h5 class="proj-subheader">What Is Wargaming?</h5>
+                <p class="proj-text"> Strategic analytical wargaming is a research method used in security and defense contexts. It allows organizations and policymakers to prepare for global conflicts by assessing risk and exploring how decisions unfold under uncertainty.
+                                        <br> <br>
+                                        A single wargame can involve dozens of participants, multiple teams, and months of design work across scenarios, logistics, and gameplay materials.
+                                        </p>
+            </div>
+            <div class="proj-subsection">
+                <h5 class="proj-subheader">About The Users</h5>
+                <p class="proj-text"> Our users are researchers at government-funded organizations and universities across allied nations. They’re experts in security, defense, and policy who use our platform to design, facilitate, and analyze games.</p>
+                </div>
+            </div>
+    </div>
+
+    <div class="proj-section">
+        <div class="proj-header">
+            <h4> Problem Statement </h4>
+        </div>
+        <div class="proj-content">
+            <div class="proj-subsection">
+                <blockquote class="proj-text"> Game design is communicated through prose. For researchers who need to quickly understand a game's design, there is no visual anchor. 
+                                                <br> <br>
+                                                We designed an interface that empowers researchers to build and visualize their game structure as they define it. 
+                                                The final product became a shared language for communicating game design that researchers have adopted in and out of the platform.
+ </blockquote>
+            </div>
+        </div>
+
+    </div>
+
+    <img class="proj-img" src="\assets\game\game Before.png" alt="game before">
+    <img class="proj-img" src="\assets\game\game Final Product.png" alt="game final product">
+
+
+
+    <div class="proj-section">
+        <div class="proj-header">
+            <h4>Discovery</h4>
+        </div>
+        <div class="proj-content">
+            <div class="proj-subsection">
+                <p class="proj-text"> I came to this problem as an outsider. Without a background in wargaming, I was someone who genuinely needed to understand what a game looked like. 
+                    Sitting in on enterprise client discussions, what was shared on screen were dense documents with no representation of the game’s structure. 
+                    The problem was visible to me because I couldn't lean on domain familiarity to fill in the gaps.</p>
+            </div>
+        </div>
+    </div>
+    <img class="proj-img" src="assets\game\game Doc Problems.png" alt="game document pain points">
+
+    <div class="proj-section">
+        <div class="proj-header">
+            <h4>Research Under Constraints</h4>
+        </div>
+        <div class="proj-content">
+            <div class="proj-subsection">
+                <p class="proj-text"> 
+                    The nature of this work made traditional research difficult. The platform handles sensitive information, so no rich analytics, and dedicated time with senior researchers is rare. Working remotely during this period also removed informal observation opportunities.
+                    <br> <br>
+                    I spoke with the researchers I did have access to: wargaming master's students, PhD candidates, and university students learning game design.
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="proj-section">
+        <div class="proj-header">
+            <h4>An Earlier Direction</h4>
+        </div>
+        <div class="proj-content">
+            <div class="proj-subsection">
+                <p class="proj-text"> An early exploration organized game structure as a data table. We tested this direction as a team and found a fundamental problem. Key numbers were deeply interdependent. How many participants are required, how many people need to attend and play, how many game instances are run were variables that constantly had to be balanced. Making assumptions on their behalf was too risky.
+                                        <br> <br>
+                    The format also still required reading. Nothing communicated hierarchy or relationship at a glance.
+                    </p>
+
+            </div>
+
+        </div>
+    </div>
+    <img class="proj-img" src="assets\game\game ideation.png" alt="game ideation">
+    <img class="proj-img" src="assets\game\game Approach 1 Lofi.png" alt="game approach 1">
+
+    <div class="proj-section">
+        <div class="proj-header">
+            <h4>Final Design</h4>
+        </div>
+        <div class="proj-content">
+            <div class="proj-subsection">
+                <p class="proj-text"> The table format could handle logistics and research parameters, but the structural and visual language of the game needed its own dedicated space, which became the focus.
+                    <br> <br>
+                    What we prioritized was a minimal, focused module where team size, structure, and descriptors could be easily understood.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <img class="proj-img" src="assets\game\game Game Structure Hifi.png" alt="game hifi">
+
+    <div class="proj-section">
+        <div class="proj-header">
+            <h4>Feature Adoption & Success Criteria</h4>
+        </div>
+        <div class="proj-content">
+            <div class="proj-subsection">
+                <p class="proj-text"> Within the platform, the convention was adopted in other features:</p>
+
+                <ol class="proj-ul">
+                    <li>In the game content editor, as a reference to which team a researcher is making edits for, and </li>
+                    <li>In the publications library, where other organizations can quickly understand a game design and decide if it’s worth replicating.</li>
+                </ol>
+            </div>
+
+            <p class="proj-text"> Outside the platform, client organizations began using it in their own working documents. The visual language became a tool of its own. Without rich platform analytics, adoption beyond the interface was our measure of success</p>
+        </div>
+    </div>
+
+    <img class="proj-img" src="assets\game\game Visual Language Applications.png" alt="game visual language">
+
+    <hr> 
+
+    <h3 class="proj-title"> Part 2: Extracting Game Design Using AI</h3>
+    
+    <p class="proj-text"> Wargame replication is a growing priority in the field. A university program partnering with us was running a project where students replicated existing wargames to test whether the same designs could produce consistent outcomes. To do this, they needed to rebuild games inside the platform from existing documentation.</p>
+
+    <img class="proj-img" src="assets\game\game Extract Game Ideation.png" alt="game extraction lofi">
+
+    <div class="proj-section">
+        <div class="proj-header">
+            <h4>First Concepts With Conversational AI</h4>
+        </div>
+        <div class="proj-content">
+            <div class="proj-subsection">
+                <p class="proj-text"> Like most AI features, the first concept was conversational. We felt it put the researcher in the wrong mindset. What they needed was to immediately see what the platform could do with their materials. We decided to prioritize the excitement factor.
+                                        <br> <br>
+                                        The redesigned flow leads with output. We take familiar elements from interacting with AI, such as presenting the user with reasoning. The researcher arrives at a workspace that is already mostly built, depending on the thoroughness of their provided documentation.
+                                        <br> <br>
+                                        Because visualization is populated as part of the extraction, researchers can immediately see and evaluate the game's structure without building it first. This strengthens the Game Structure module, allowing researchers to quickly understand a game’s design communicate this to collaborators. </p>
+            </div>
+        </div>
+    </div>
+
+    <img class="proj-img" src="assets\game\game Extract Game Hifi.png" alt="game extraction hifi">
+
+        <div class="proj-section">
+        <div class="proj-header">
+            <h4>Next Steps</h4>
+        </div>
+        <div class="proj-content">
+            <div class="proj-subsection">
+                <p class="proj-text"> The extraction feature is currently in testing and has not yet shipped. 
+
+                <br> <br>
+                As for the Game Structure module, I see this feature as an anchor for an entire game project. Every other piece of game material connects to the design of the game itself, so this is a feature we can use to communicate this for new wargame researchers.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="proj-section">
+        <div class="proj-header">
+            <h4>Measuring Success</h4>
+        </div>
+        <div class="proj-content">
+            <div class="proj-subsection">
+                <p class="proj-text"> If instrumentation were available, these are the metrics that I would leverage to validate this feature:
+                </p> <br>
+                
+                <p class="proj-text"><strong>Game Structure</strong></p>
+                <ol class="proj-ul">
+                    <li>Completion rate (module completed vs. skipped)</li>
+                    <li>Time spent in module (within a session, across sessions)</li>
+                    <li>Return rate</li>
+                </ol> <br>
+            
+                <p class="proj-text"><strong>Extract Game Using AI</strong></p>
+                <ol class="proj-ul">
+                    <li>Module correction rate and edits before saving</li>
+                    <li>Time to first complete project</li>
+                    <li>Feature adoption rate (new game projects use extraction vs. starting from scratch)</li>
+                    <li>Drop off points</li>
+                </ol> <br>
+
+                <p class="proj-text"><strong>However, these qualitative methods are currently tracking:</strong></p>
+                <ol class="proj-ul">
+                    <li>Feedback from facilitators and client-facing team members</li>
+                    <li>Frequency of game structure conventions appearing in off-platform visuals</li>
+                    <li>Direct researcher feedback during game facilitation sessions</li>
+                    <li>Observations of feature usage during client events</li>
+                </ol>
+            </div>
+            
+
+        </div>
+    </div>
+
+
+</div>
+
+
+  <div class="container">
+    <footer>
+        <p>&copy; Lancy Tan</p>
+
+        <span class="socials"> <a href="https://www.linkedin.com/in/lancy-tan/" target="_blank" aria-label="LinkedIn"> <i class="fa-brands fa-linkedin-in"></i> </a> 
+          <span style="color: var(--accent);">/</span>
+                
+                <a href="mailto:lancy.tan97@gmail.com" id="accent-link" aria-label="Email"> <i class="fa-regular fa-envelope"></i></a> </span>
+      </footer>
+  </div>
+
+</body>
+
+</html>
